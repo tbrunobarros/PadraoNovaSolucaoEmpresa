@@ -1,4 +1,4 @@
-# PadraoNovaSolusaoEmpresa
+# PadraoNovaSolucaoEmpresa
 Projeto de Padronização de Criação de API usando ASP.NET Core
 
 Tópicos:
