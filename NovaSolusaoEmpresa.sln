@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{A8EF1529-F00A-49C3-9F8F-21075D053256}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{44DE00FC-32B9-4B41-AFE9-3296FB9B130E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{9F62F3E9-F903-4388-BD5A-A0D92BD6916C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empresa.NovaApi.API", "src\Empresa.NovaApi.API\Empresa.NovaApi.API.csproj", "{9B5CABE8-F9F9-4B10-A310-41C308CFBFF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empresa.NovaApi.Application", "src\Empresa.NovaApi.Application\Empresa.NovaApi.Application.csproj", "{8646112E-FF7A-45DD-821E-EEA17B87B8EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{CC6B1342-4627-4A5D-B9C4-625014179534}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empresa.NovaApi.Infra.CrossCutting.IoC", "src\Empresa.NovaApi.Infra.CrossCutting.IoC\Empresa.NovaApi.Infra.CrossCutting.IoC.csproj", "{337C0979-5BC5-4CE8-886B-E72BA013C31F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empresa.NovaApi.Infra.CrossCutting.Options", "src\Empresa.NovaApi.Infra.CrossCutting.Options\Empresa.NovaApi.Infra.CrossCutting.Options.csproj", "{6543BD34-F691-4EEE-A186-5AA2434213E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B5CABE8-F9F9-4B10-A310-41C308CFBFF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5CABE8-F9F9-4B10-A310-41C308CFBFF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5CABE8-F9F9-4B10-A310-41C308CFBFF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5CABE8-F9F9-4B10-A310-41C308CFBFF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8646112E-FF7A-45DD-821E-EEA17B87B8EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8646112E-FF7A-45DD-821E-EEA17B87B8EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8646112E-FF7A-45DD-821E-EEA17B87B8EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8646112E-FF7A-45DD-821E-EEA17B87B8EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{337C0979-5BC5-4CE8-886B-E72BA013C31F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{337C0979-5BC5-4CE8-886B-E72BA013C31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{337C0979-5BC5-4CE8-886B-E72BA013C31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{337C0979-5BC5-4CE8-886B-E72BA013C31F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6543BD34-F691-4EEE-A186-5AA2434213E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6543BD34-F691-4EEE-A186-5AA2434213E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6543BD34-F691-4EEE-A186-5AA2434213E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6543BD34-F691-4EEE-A186-5AA2434213E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B5CABE8-F9F9-4B10-A310-41C308CFBFF0} = {A8EF1529-F00A-49C3-9F8F-21075D053256}
+		{8646112E-FF7A-45DD-821E-EEA17B87B8EB} = {44DE00FC-32B9-4B41-AFE9-3296FB9B130E}
+		{CC6B1342-4627-4A5D-B9C4-625014179534} = {9F62F3E9-F903-4388-BD5A-A0D92BD6916C}
+		{337C0979-5BC5-4CE8-886B-E72BA013C31F} = {CC6B1342-4627-4A5D-B9C4-625014179534}
+		{6543BD34-F691-4EEE-A186-5AA2434213E9} = {CC6B1342-4627-4A5D-B9C4-625014179534}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77766479-0E5D-411C-888E-CB55D15E0BDE}
+	EndGlobalSection
+EndGlobal
